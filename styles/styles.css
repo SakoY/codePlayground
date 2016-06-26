@@ -1,0 +1,103 @@
+html, body{
+	margin:0px;
+	font-family:Arial,helvetica,sans-serif;
+	height:100%;
+}
+
+@font-face {
+    font-family: "Mohave";
+    src: url("Mohave.otf") format("truetype");
+}
+
+iframe {
+ border-top:0 none;
+ border-right:0 none;
+ border-left:0 none;
+}
+
+
+#topbar{
+	background-color:#333333;
+	height:33px;
+	width:100%;
+}
+
+#bottomBar{
+    position: fixed;
+    background-color:#333333;
+    z-index: 100;
+    height:8px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#bottomfooter{
+	font-family:'Mohave';
+	font-size:7px;
+	color:#EAEAEA;
+	text-align:center;
+}
+
+#logo{
+	font-family:'Mohave';
+	color:#51DD02;
+	font-size:25px;
+	padding-top:3px;
+	padding-left:15px;
+	float:left;
+}
+
+#topButtons{
+	float:right;
+	padding-top:1px;
+	padding-right: 15px;
+}
+
+#topButtons2{
+	float:right;
+	padding-top:1px;
+	padding-right: 15px;
+}
+
+
+
+label.ui-state-active{
+	background: #51DD02 !important;
+	color:black !important;
+}
+
+
+label.ui-widget{
+	font-family:'Mohave';
+	font-size:15px;
+}
+
+
+button.ui-state-active{
+	background: #51DD02 !important;
+	color:black !important;
+}
+
+
+button.ui-widget{
+	font-family:'Mohave';
+	font-size:15px;
+}
+
+
+textarea{
+	display:block;
+	float:left;
+	border-left:none;
+	border-top:none;
+	resize:none;
+}
+
+#html-area,#css-area,#java-area,#output-area{
+	margin:0;
+}
+
+#output-area{
+	float:left;
+}
